@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "application with option to add/delete and mark it as completed. Also you should be to show pending and completed tasks ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Susil Chand Panda",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-ui-router": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myToDoApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO - Task Manager</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="route.js"></script>
+    <script type="text/javascript" src="controller/toDoController.js"></script>
+</head>
+<body ng-controller="userCtrl">
+    <div class="container-fluid jumbotron">
+        <div class=" col-sm-offset-4">
+            <h2>TODO Task Manager</h2>
+        </div>
+    </div>
+
+    <ui-view></ui-view>
+    <!--<div class="container">
+
+            <h2>List of Tasks</h2>            
+            <table class="table table-hover">
+                     <thead>
+                <tr>
+                    <th>Select</th>
+                  <th>Task Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr  ng-repeat="task in taskList">
+                    <td><input type="checkbox" ng-model="checked"> </td>
+                    <td>{{task.description}}</td>
+                    <td>{{task.status}}</td>
+                   &lt;!&ndash; <td><button class="btn btn-danger" ng-click="remove($index)">Remove</button></td>&ndash;&gt;
+                        <td><button class="btn btn-info" ng-disabled="!checked" ng-click="update(task.id)">Complete</button></td>
+                    <td><button class="btn btn-danger" ng-disabled="!checked" ng-click="delete(task.id)">Remove</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>-->
+</body>
+</html>
