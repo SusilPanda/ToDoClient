@@ -15,7 +15,8 @@ app.controller('userCtrl', function ($scope, $state, $http) {
             "status": "open"
         }];
 
-
+   
+    
     var getAllTask = function () {
         console.log("got a getAll request");
         //$scope.taskList = data;
