@@ -9,7 +9,7 @@
   "author": "Susil Chand Panda",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.8",
+    "angular": "^1.8.0",
     "angular-ui-router": "^1.0.3",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
